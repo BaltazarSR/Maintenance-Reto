@@ -1,0 +1,16 @@
+{
+ "arch": "cnnlstm",
+ "L": 24,
+ "imbalance": "weighted",
+ "trials": 20,
+ "max_epochs": 8,
+ "best_value": 0.9941892284816548,
+ "best_params": {
+  "hidden": 32,
+  "dropout": 0.002936892775529165,
+  "filters": 64,
+  "lr": 0.0005603888672602156,
+  "weight_decay": 0.0010225291281781464,
+  "lam": 1.2221463073852514
+ }
+}

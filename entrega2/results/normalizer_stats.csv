@@ -1,0 +1,14 @@
+canal,media (train),std (train)
+volt,170.80635,15.508958
+rotate,446.57242,52.63995
+pressure,100.80965,11.012141
+vibration,40.39249,5.364767
+error1_ind,0.0,1.0
+error2_ind,0.0,1.0
+error3_ind,0.0,1.0
+error4_ind,0.0,1.0
+error5_ind,0.0,1.0
+log_h_since_comp1,6.549743,1.3427418
+log_h_since_comp2,6.4873238,1.374162
+log_h_since_comp3,6.5618534,1.3499897
+log_h_since_comp4,6.5655937,1.3552212

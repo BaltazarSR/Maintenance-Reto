@@ -1,0 +1,42 @@
+{
+ "name": "imb_cnnlstm_24_undersample",
+ "arch": "cnnlstm",
+ "L": 24,
+ "imbalance": "undersample",
+ "hp": {
+  "hidden": 64,
+  "filters": 32,
+  "kernel": 5,
+  "dropout": 0.2
+ },
+ "train": {
+  "lam": 1.0,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch": 512,
+  "max_epochs": 12,
+  "patience": 3
+ },
+ "n_params": 37238,
+ "best_epoch": 10,
+ "epochs": 12,
+ "seconds": 45.91297221183777,
+ "PR-AUC": 0.9887865138231801,
+ "ROC-AUC": 0.9997223472305935,
+ "recall@P≥0.80": 0.9928355957767723,
+ "precisión en ese punto": 0.8146658415841584,
+ "umbral": 0.0066221049055457115,
+ "brier": 0.0012612864739845223,
+ "f1": {
+  "ninguno": 0.9992391777457721,
+  "comp1": 0.8693834900731452,
+  "comp2": 0.9401140684410646,
+  "comp3": 0.9427027027027027,
+  "comp4": 0.9754385964912281,
+  "macro": 0.9453756070907826
+ },
+ "lead_median_h": 24.0,
+ "lead_mean_h": 26.5,
+ "failures_anticipated": 1.0,
+ "n_failures": 118
+}

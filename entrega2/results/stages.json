@@ -1,0 +1,5 @@
+{
+ "arch": "cnnlstm",
+ "L": 24,
+ "imbalance": "weighted"
+}

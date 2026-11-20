@@ -1,0 +1,41 @@
+{
+ "name": "arch_gru",
+ "arch": "gru",
+ "L": 72,
+ "imbalance": "weighted",
+ "hp": {
+  "hidden": 64,
+  "layers": 2,
+  "dropout": 0.2
+ },
+ "train": {
+  "lam": 1.0,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch": 512,
+  "max_epochs": 12,
+  "patience": 3
+ },
+ "n_params": 45014,
+ "best_epoch": 11,
+ "epochs": 12,
+ "seconds": 531.4563174247742,
+ "PR-AUC": 0.9935944327013879,
+ "ROC-AUC": 0.9994941589345014,
+ "recall@P≥0.80": 0.9917043740573153,
+ "precisión en ese punto": 0.8122297714638665,
+ "umbral": 0.00010213960194960237,
+ "brier": 0.0005611612832741678,
+ "f1": {
+  "ninguno": 0.9995754316444948,
+  "comp1": 0.9411764705882353,
+  "comp2": 0.9615014436958614,
+  "comp3": 0.9297520661157025,
+  "comp4": 0.9899713467048711,
+  "macro": 0.964395351749833
+ },
+ "lead_median_h": 24.0,
+ "lead_mean_h": 26.23728813559322,
+ "failures_anticipated": 1.0,
+ "n_failures": 118
+}

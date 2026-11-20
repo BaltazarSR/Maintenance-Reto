@@ -1,0 +1,42 @@
+{
+ "name": "L_cnnlstm_24",
+ "arch": "cnnlstm",
+ "L": 24,
+ "imbalance": "weighted",
+ "hp": {
+  "hidden": 64,
+  "filters": 32,
+  "kernel": 5,
+  "dropout": 0.2
+ },
+ "train": {
+  "lam": 1.0,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch": 512,
+  "max_epochs": 12,
+  "patience": 3
+ },
+ "n_params": 37238,
+ "best_epoch": 6,
+ "epochs": 9,
+ "seconds": 124.74728536605835,
+ "PR-AUC": 0.9960523575526401,
+ "ROC-AUC": 0.9999352962966235,
+ "recall@P≥0.80": 1.0,
+ "precisión en ese punto": 0.892328398384926,
+ "umbral": 0.0479150228202343,
+ "brier": 0.0010638869393336688,
+ "f1": {
+  "ninguno": 0.9992708687280553,
+  "comp1": 0.888235294117647,
+  "comp2": 0.9272211720226843,
+  "comp3": 0.9127659574468086,
+  "comp4": 0.9799426934097422,
+  "macro": 0.9414871971449875
+ },
+ "lead_median_h": 24.0,
+ "lead_mean_h": 26.21186440677966,
+ "failures_anticipated": 1.0,
+ "n_failures": 118
+}
